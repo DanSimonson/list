@@ -4,7 +4,7 @@ import React from 'react';
 const car = ( props ) => {
     return (
         <div className="Car">
-            <p>I'm a {props.make} {props.model} </p>
+            <p onClick={props.click}> I'm a {props.make} {props.model} </p>
         </div>
     )
 };
